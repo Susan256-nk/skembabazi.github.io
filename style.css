@@ -1,0 +1,109 @@
+h2{
+   color:orange;
+   font-family:times new roman;
+   background-color:;
+   }
+body{
+   background-color:;
+   font-size:18px;
+   color: rgb(72, 64, 54);
+}
+table{
+   width:100%;
+}
+th{
+    background-color: burlywood;
+    color: black;
+}
+td{
+   background-color: rgb(121, 146, 78);
+   color: black;
+}
+p{
+  font-size:17px;
+
+}
+header{
+   background-color:burlywood;
+   text-align: center;
+   padding: 10px;
+   color:black;
+}
+footer{
+   background-color: burlywood;
+   text-align: center;
+   padding: 10px;
+    color:black;
+}
+nav{
+   overflow: hidden;
+   background-color: rgb(192, 194, 194);
+}
+nav a{
+   float: left;
+   display: block;
+   color: rgb(100, 73, 18);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+nav a:hover {
+   background-color: green;
+   color: black;
+}
+
+/* formatting hero section */
+.hero{
+   min-height: 100vh;
+   background:url("IMG-20251204-WA0021_1.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+
+}
+.hero-content{
+   max-width: 800px;
+   color: green;
+}
+.hero h2{
+   font-size: 3rem;
+   margin-bottom: 10px;
+}
+.hero h3{
+   font-size: 1.5rem;
+   font-weight: 400;
+   margin-bottom: 20px;
+   color:rgb(192, 194, 194);
+   background-color:blue;
+}
+.hero p{
+   font-size: 1.1rem;
+   line-height: 1.6;
+   margin-bottom: 30px;
+   color: burlywood;
+   background-color:green;
+}
+.hero-buttons{
+   display: flex;
+   gap: 18px;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+form{
+   margin:30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="Submit"],
+textarea{
+    display:block;
+    padding: 10px;
+    width: 80%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
